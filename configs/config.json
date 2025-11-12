@@ -1,0 +1,16 @@
+{
+    "data_folder" : "./data/cerv_clean", 
+    "data_type" : ["Cervical"],
+
+    "feature_cols" : ["D-dimer", "FDP", 
+                        "WBC", "PLT", "HB",
+                        "CD4", "CD8", "CD4/CD8"],
+    
+    "time_col" : "date", 
+    "label_col" : "VTE",
+
+    "batch_size" : 512,
+    "epochs" : 1000,   
+    "lr" : 0.001,
+    "step" : 100
+}

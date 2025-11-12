@@ -1,0 +1,15 @@
+{
+    "step" : 100,
+    "data_folder" : "./data/cerv_clean", 
+    "data_type" : ["Cervical"],
+
+    "feature_cols" : ["D-dimer", "FDP", 
+                        "WBC", "PLT", "HB",
+                        "CD4", "CD8", "CD4/CD8"],
+    "label_col" : "VTE",
+
+    "norm" : true,
+    "norm_cols" : ["D-dimer", "FDP", 
+                        "WBC", "PLT", "HB",
+                        "CD4", "CD8", "CD4/CD8"]
+}

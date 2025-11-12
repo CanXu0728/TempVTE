@@ -1,0 +1,15 @@
+*.pth
+checkpoints/*
+results/*
+data/*
+!checkpoints/.keep
+!results/.keep
+!data/.keep
+!data/cerv_clean
+
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
